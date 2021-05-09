@@ -9,3 +9,5 @@ There are three data files. One is "metabolomicsData.csv", which has all the mea
 ## Running the code
 
 There is only one script, "BIOF509_final.py", with the data pipeline contained in the "MetabolomicsML" class. At the end of the file, the full pipeline is implemented using both of the ML algorithms and several labels selected from the patient data; rank-ordered importance of the features (metabolites) is then written into a "results" directory. Other labels from the patient data can be easily chosen by entering the appropriate "patientData.csv" column name into the "classifier" method.
+
+To run: `python BIOF509_final.py`
